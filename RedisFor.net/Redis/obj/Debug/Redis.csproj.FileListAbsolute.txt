@@ -1,0 +1,16 @@
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\Redis.exe.config
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\Redis.exe
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\Redis.pdb
+E:\hc\新建文件夹\Redis\Redis\obj\Debug\Redis.csprojResolveAssemblyReference.cache
+E:\hc\新建文件夹\Redis\Redis\obj\Debug\Redis.Properties.Resources.resources
+E:\hc\新建文件夹\Redis\Redis\obj\Debug\Redis.csproj.GenerateResource.Cache
+E:\hc\新建文件夹\Redis\Redis\obj\Debug\Redis.exe
+E:\hc\新建文件夹\Redis\Redis\obj\Debug\Redis.pdb
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Common.dll
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Interfaces.dll
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Redis.dll
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Text.dll
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Common.xml
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Redis.xml
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Text.xml
+E:\hc\新建文件夹\Redis\Redis\obj\Debug\Redis.Redis.resources
