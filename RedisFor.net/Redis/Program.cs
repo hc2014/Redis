@@ -15,7 +15,7 @@ namespace Redis
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Redis());
+            Application.Run(new StackExChange());
         }
     }
 }

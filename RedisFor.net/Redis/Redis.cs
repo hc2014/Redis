@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Redis
 {
-    public partial class Redis : Form
+    public partial class ServiceStack : Form
     {
-        public Redis()
+        public ServiceStack()
         {
             InitializeComponent();
         }
@@ -119,6 +119,11 @@ namespace Redis
             {
                 btnGet_Click(null, null);
             }
+        }
+
+        private void btnPush_Click(object sender, EventArgs e)
+        {
+
         }
 
         

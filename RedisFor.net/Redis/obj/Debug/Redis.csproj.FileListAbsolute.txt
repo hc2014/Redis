@@ -13,4 +13,7 @@ E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Text.dll
 E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Common.xml
 E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Redis.xml
 E:\hc\新建文件夹\Redis\Redis\bin\Debug\ServiceStack.Text.xml
-E:\hc\新建文件夹\Redis\Redis\obj\Debug\Redis.Redis.resources
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\StackExchange.Redis.dll
+E:\hc\新建文件夹\Redis\Redis\bin\Debug\StackExchange.Redis.xml
+E:\hc\新建文件夹\Redis\Redis\obj\Debug\Redis.ServiceStack.resources
+E:\hc\新建文件夹\Redis\Redis\obj\Debug\Redis.StackExChange.resources

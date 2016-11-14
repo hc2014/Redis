@@ -1,6 +1,6 @@
 ﻿namespace Redis
 {
-    partial class Redis
+    partial class ServiceStack
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -38,9 +38,9 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btnGet = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnCommit = new System.Windows.Forms.Button();
-            this.btnRoleBack = new System.Windows.Forms.Button();
             this.btnErrorCommit = new System.Windows.Forms.Button();
+            this.btnRoleBack = new System.Windows.Forms.Button();
+            this.btnCommit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -144,15 +144,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "事物";
             // 
-            // btnCommit
+            // btnErrorCommit
             // 
-            this.btnCommit.Location = new System.Drawing.Point(16, 20);
-            this.btnCommit.Name = "btnCommit";
-            this.btnCommit.Size = new System.Drawing.Size(90, 23);
-            this.btnCommit.TabIndex = 0;
-            this.btnCommit.Text = "正常执行事物";
-            this.btnCommit.UseVisualStyleBackColor = true;
-            this.btnCommit.Click += new System.EventHandler(this.btnCommit_Click);
+            this.btnErrorCommit.Location = new System.Drawing.Point(16, 51);
+            this.btnErrorCommit.Name = "btnErrorCommit";
+            this.btnErrorCommit.Size = new System.Drawing.Size(113, 23);
+            this.btnErrorCommit.TabIndex = 2;
+            this.btnErrorCommit.Text = "报错但是正常执行事物";
+            this.btnErrorCommit.UseVisualStyleBackColor = true;
+            this.btnErrorCommit.Click += new System.EventHandler(this.btnErrorCommit_Click);
             // 
             // btnRoleBack
             // 
@@ -164,17 +164,17 @@
             this.btnRoleBack.UseVisualStyleBackColor = true;
             this.btnRoleBack.Click += new System.EventHandler(this.btnRoleBack_Click);
             // 
-            // btnErrorCommit
+            // btnCommit
             // 
-            this.btnErrorCommit.Location = new System.Drawing.Point(16, 51);
-            this.btnErrorCommit.Name = "btnErrorCommit";
-            this.btnErrorCommit.Size = new System.Drawing.Size(113, 23);
-            this.btnErrorCommit.TabIndex = 2;
-            this.btnErrorCommit.Text = "报错但是正常执行事物";
-            this.btnErrorCommit.UseVisualStyleBackColor = true;
-            this.btnErrorCommit.Click += new System.EventHandler(this.btnErrorCommit_Click);
+            this.btnCommit.Location = new System.Drawing.Point(16, 20);
+            this.btnCommit.Name = "btnCommit";
+            this.btnCommit.Size = new System.Drawing.Size(90, 23);
+            this.btnCommit.TabIndex = 0;
+            this.btnCommit.Text = "正常执行事物";
+            this.btnCommit.UseVisualStyleBackColor = true;
+            this.btnCommit.Click += new System.EventHandler(this.btnCommit_Click);
             // 
-            // Redis
+            // ServiceStack
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -182,8 +182,8 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Redis";
-            this.Text = "Redis";
+            this.Name = "ServiceStack";
+            this.Text = "ServiceStack.Redis";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
